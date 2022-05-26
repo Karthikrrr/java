@@ -1,0 +1,29 @@
+package Hy;
+
+class one {
+    public void print_geek()
+    {
+        System.out.println("Geeks");
+    }
+}
+class hello  extends hi
+{
+public  void boss()
+{
+	System.out.println("hello");
+}
+}
+
+
+public class Multi
+{
+
+	public static void main(String[] args)
+	{
+		hello h=new hello();
+		h.boss();
+		//h.gi();
+	
+		System.out.println("main class");
+	}
+}

@@ -1,0 +1,42 @@
+package ADT;
+
+class Node
+{
+	int data;
+	Node left,right;
+	Node(int data)
+	{
+		this.data=data;
+		left=right=null;
+	}
+}
+
+public class BST {
+	Node root;
+	
+	
+	BST()
+	{
+		root=null;
+	}
+	
+	void Printy(Node root)
+	{
+		if(root==null)
+		{
+			return;
+		}
+		Printy(root.left);
+			System.out.print(root.data+" ");
+		Printy(root.right);
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		BST bt=new BST();
+		bt.root=new Node(10);
+		bt.Printy(root);
+	}
+	
+}

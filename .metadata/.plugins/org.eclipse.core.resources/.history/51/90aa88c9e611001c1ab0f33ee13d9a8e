@@ -1,0 +1,44 @@
+package Link;
+
+
+
+public class Reversell
+{
+
+static Node head;	
+
+static class Node
+{
+int data;
+Node next;
+
+Node(int data)
+{
+this.data=data;
+next=null;
+}
+}
+
+
+static void display(Node node)
+{
+Node temp=head;
+while(temp.next!=null)
+{
+System.out.print(temp.data);
+temp=temp.next;
+}
+}
+
+
+
+public static void main(String[] args)
+{
+Reversell	r=new Reversell();
+
+r.head=new Node(1);
+r.head.next=new Node(2);
+r.head.next.next=new Node(3);
+r.display(head);
+}
+}

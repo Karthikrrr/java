@@ -1,0 +1,26 @@
+package jo;
+import java.util.*;
+public class Sumzero 
+{
+	public int check(int[] arr)
+	{
+		HashSet<Integer> h=new HashSet<Integer>();
+		int sum=0;
+		for(int i=0;i<arr.length;i++)
+		{
+			sum+=arr[i];
+			if(sum==0 || h.contains(0))
+			{
+				return 0;
+			}
+			h.add(arr[i]);
+		}
+		return 1;
+	}
+public static void main(String[] args)
+{
+int[] arr=new int[] {12,123,123,12,112,3,-12};
+Sumzero s=new Sumzero();
+s.check(arr);
+}
+}

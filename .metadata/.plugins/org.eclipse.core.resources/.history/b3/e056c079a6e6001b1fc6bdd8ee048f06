@@ -1,0 +1,10 @@
+package unit2;	
+
+class myownEx extends Exception
+{
+	
+}
+
+public class ownEx {
+
+}

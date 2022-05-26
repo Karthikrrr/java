@@ -1,0 +1,19 @@
+package Hy;
+
+interface  one{
+	public void hi()
+	{
+		
+	}
+}
+
+
+
+public class Face {
+	
+	
+public static void main(String[] args)
+{
+	System.out.println("main");
+}
+}

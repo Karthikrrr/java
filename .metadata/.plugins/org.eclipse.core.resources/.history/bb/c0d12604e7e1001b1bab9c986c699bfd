@@ -1,0 +1,10 @@
+package jo;
+
+public class Sumy 
+{
+public static void main(String[] args)
+{
+int[] arr = new int[] {1,23,4,5,5,67,8,8,9};
+int finalSum=27;
+}
+}

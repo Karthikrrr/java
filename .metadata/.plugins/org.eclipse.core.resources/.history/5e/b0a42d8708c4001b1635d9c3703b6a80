@@ -1,0 +1,20 @@
+package practice;
+
+public class Staint {
+	static int x=10;
+	static void ok()
+	{
+		System.out.print(x);
+
+	}
+	
+	
+	public static void main (String[] args)
+	{
+		//Stating s= new Stating();
+		//s.ok();
+		ok();
+		System.out.print(x);
+	}
+
+}

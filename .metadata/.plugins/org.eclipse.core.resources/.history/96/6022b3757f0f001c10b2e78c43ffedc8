@@ -1,0 +1,10 @@
+package jo;
+
+public class Sumzero 
+{
+public static void main(String[] args)
+{
+int[] arr=new int[] {12,123,123,12,112,3,-12};
+Sumzero s =new 
+}
+}

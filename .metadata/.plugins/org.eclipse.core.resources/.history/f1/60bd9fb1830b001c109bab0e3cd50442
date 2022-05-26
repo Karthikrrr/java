@@ -1,0 +1,16 @@
+package jo;
+
+public class ArrayIndex {
+public static  void main(String[] args)
+{
+int[] arr=new int[]{1,2,3};
+int i=0;
+while(i<10)
+{
+arr[i]=i;
+i++;
+}
+System.out.print(arr);
+
+}
+}

@@ -1,0 +1,15 @@
+package FirstUnit;
+
+public class Sta {
+
+	Sta(int age)
+	{
+		System.out.print("sads");
+		
+	}
+	public static void main(String[] args)
+	{
+		Sta s=new Sta();
+		System.out.print("ASd");
+	}
+}

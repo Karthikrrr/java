@@ -1,0 +1,18 @@
+package FirstUnit;
+
+ class Sza{
+int age;
+	Sza(int age)
+	{
+		this.age=age;
+		System.out.print(age);
+		
+	}
+	}
+class Sta{
+	public static void main(String[] args)
+	{
+		Sza s=new Sza(1132);
+		System.out.print("ASd");
+	}
+}

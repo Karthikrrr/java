@@ -1,0 +1,17 @@
+package jo;
+import java.util.*;
+public class Split
+{
+public static void main(String[] args)
+{
+int x=21231;
+ArrayList<Integer> arr=new ArrayList<Integer>();
+int c=0;
+while(x<0)
+{
+arr.add(x%10);
+x=x/10;
+}
+System.out.print(arr);
+}
+}

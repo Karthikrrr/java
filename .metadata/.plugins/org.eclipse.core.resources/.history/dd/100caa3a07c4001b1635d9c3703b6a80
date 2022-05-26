@@ -1,0 +1,15 @@
+package practice;
+
+public class Stating {
+	static void ok()
+	{
+		System.out.print("SAS");
+
+	}
+	
+	
+	public static void main (String[] args)
+	{
+		System.out.print("SAS");
+	}
+}

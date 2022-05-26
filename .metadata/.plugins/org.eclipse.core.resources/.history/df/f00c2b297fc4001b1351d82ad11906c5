@@ -1,0 +1,22 @@
+package practice;
+
+
+	public class stat1{
+		String studentName;
+		static int studentAge;
+		//constructor
+		stat1(String name, int age){
+		studentName = name;
+		studentAge = age;
+		}
+		void display(){
+		System.out.println(studentName+ " "+studentAge);
+		}
+		public static void main(String args[])
+		{
+			stat1 myObj = new stat1("Manan" , 19);
+		myObj.display();
+		}
+		
+
+}

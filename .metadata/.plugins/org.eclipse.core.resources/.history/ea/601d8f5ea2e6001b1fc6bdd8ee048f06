@@ -1,0 +1,10 @@
+package unit2;
+
+public class Thows {
+	
+	public static void main(String[] args)  throws Exception
+	{
+		int z=100;
+		System.out.print("ASD");
+	}
+}

@@ -1,0 +1,34 @@
+package Matrix;
+import java.util.*;
+public class spiral 
+{
+	public ArrayList<Integer> check(int[][] matrix)
+	{
+	ArrayList<Integer> nums=new	ArrayList<Integer>();
+	if(matrix==null|| matrix.length==0)
+	{
+		return nums;
+	}
+	int bottom=matrix.length-1;
+	int right=matrix[0].length-1;
+	int top=0;
+	int left=0;
+//	int bottom=row-1;
+	int siz=bottom*right;
+	while(nums.size()<siz)
+	{
+		for(int i=top;i<=right;i++)
+		{
+			
+		}
+	}
+	return nums;
+	}
+public static void main(String[] args)
+{
+int[][] matrix= {{1,2,3},{4,5,6},{7,8,9}};
+spiral s=new spiral();
+s.check(matrix);
+}
+}
+

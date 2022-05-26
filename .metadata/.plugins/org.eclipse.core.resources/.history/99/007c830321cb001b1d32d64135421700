@@ -1,0 +1,19 @@
+package Hy;
+
+class hi{
+	public void ji()
+	{
+		System.out.print("hii");
+	}
+}
+class hello {
+	public void ji()
+	{
+		System.out.print("hii");
+	}
+}
+
+public class Over {
+	
+
+}

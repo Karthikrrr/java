@@ -1,0 +1,13 @@
+package Hy;
+
+public class RemoveDup {
+	public static void main(String[] args)
+	{
+	String	a="zxxxcca";
+	String za=a.replace("x","");
+	System.out.print(za);
+	//StringBuilder build = new ;
+	char[] str= a.toCharArray();
+	System.out.print(str);
+	}
+}

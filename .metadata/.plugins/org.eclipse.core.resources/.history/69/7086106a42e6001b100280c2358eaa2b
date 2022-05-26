@@ -1,0 +1,17 @@
+package unit2;
+
+public class Catching 
+{
+public static void main(String[] args)
+{
+try {
+	int x=0;
+	System.out.print("ASD");
+}
+catch (Exception e){
+	e.printStackTrace();
+	}
+
+}	
+	
+}

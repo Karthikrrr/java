@@ -1,0 +1,42 @@
+package Hy;
+import java.util.*;
+import java.lang.*;
+
+public class RemoveDup {
+	 static String check(char str[])
+	{
+		 String f="";
+		int n= str.length;
+		int index=0;
+		for(int i=0;i<n;i++)
+		{
+			int j;
+			for( j=1;j<n;j++)
+			{
+				if(str[i]==str[j])
+				{
+					break;
+				}
+			}
+			if(j==i)
+			{
+				str[++index]=str[i];
+				System.out.print(index);
+			}
+			
+		}
+		//f=Character.toString(str,index);
+		
+			return 	String.valueOf(Arrays.copyOf(str,index));
+	
+	}
+	
+	public static void main(String[] args)
+	{
+	String	a="zxxxcca";
+	
+	char str[]= a.toCharArray();
+	System.out.print(check(str));
+	
+	}
+}

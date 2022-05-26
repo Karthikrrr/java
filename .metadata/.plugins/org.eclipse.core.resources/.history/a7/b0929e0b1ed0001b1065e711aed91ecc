@@ -1,0 +1,17 @@
+package labs;
+import java.util.*;
+
+public class Hashm 
+{
+public static void main(String[] args)
+{
+
+HashMap<String, Integer> capitalCities = new HashMap<String, Integer>();
+capitalCities.put("England", 0);
+capitalCities.put("Germany", 1);
+capitalCities.put("Norway", 2);
+capitalCities.put("USA", 3);
+System.out.println(capitalCities); 
+}
+	
+}

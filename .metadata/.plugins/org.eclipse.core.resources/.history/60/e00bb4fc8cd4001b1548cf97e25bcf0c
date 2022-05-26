@@ -1,0 +1,47 @@
+package jo;
+import java.util.*;
+
+
+
+public class Student {
+	String name,address,phoneNumber,emailID,branch;
+	Double tutionFee,AddmissionFee,Donatation;
+
+	Student(String name,String address,String phoneNumber )
+	{
+		System.out.print("ads");
+	}
+	
+	
+	public static void main(String[] args) {
+		Scanner scn=new Scanner(System.in);
+		System.out.println("enter name");
+		String name=scn.nextLine();
+		
+		System.out.println("enrer address");
+		String address=scn.nextLine();
+		
+		System.out.println("enter phone number");
+		String phoneNumber=scn.nextLine();
+		
+		System.out.println("enter email id ");
+		String emailID=scn.nextLine();
+		
+		System.out.println("enter branch");
+		String branch=scn.nextLine();
+		
+		System.out.println("enter tution fee");
+		Double tutionFee=scn.nextDouble();
+		
+		System.out.println("enter donation fee");
+		Double Donatation=scn.nextDouble();
+
+		
+		System.out.println("enter Donation");
+		Double tutionFee=scn.nextDouble();
+    
+
+
+	}
+
+}

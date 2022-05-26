@@ -1,0 +1,13 @@
+package FirstUnit;
+
+public class SelSort {
+	public static void main(String args[])
+	{
+		int[] x= {9,1,2,0,7,5};
+		for(int i=0;i<x.length;i++)
+		{
+			System.out.print(x[i]);
+		}
+	}
+
+}

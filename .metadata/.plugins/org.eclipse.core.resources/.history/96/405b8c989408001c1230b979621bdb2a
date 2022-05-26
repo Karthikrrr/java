@@ -1,0 +1,12 @@
+package ADT;
+import java.util.HashSet;
+import java.util.HashSet.*;
+public class hashss {
+public static void main(String[] args)
+{
+HashSet<Character> hs=new HashSet<Character>();	
+String str="Hello Boss";
+
+}
+
+}

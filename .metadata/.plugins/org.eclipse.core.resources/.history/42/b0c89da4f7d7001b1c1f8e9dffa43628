@@ -1,0 +1,73 @@
+package ADT;
+
+class Node
+{
+	int data;
+	Node next;
+	Node(int data)
+	{
+		this.data=data;
+		next=null;
+	}
+}
+
+public class LinkedList {
+	static Node head;
+	
+	static class Node
+	{
+		int data;
+		Node next;
+		Node(int data)
+		{
+			this.data=data;
+			next=null;
+		}
+	}
+	
+	LinkedList()
+	{
+		head=null;
+	}
+	
+	Node reverse(Node node)
+	{
+		System.out.println("nexttts");
+		 Node prev = null;
+	        Node current = node;
+	        Node next = null;
+	        while (current != null) {
+	        	System.out.println("s");
+	            next = current.next;
+	            current.next = prev;
+	            prev = current;
+	            current = next;
+	        }
+	        node = prev;
+	        return node;
+	}
+	
+	
+	
+	void printy(Node node)
+	{
+		while(node!=null)
+		{
+			System.out.print(node.data + " ");
+			node=node.next;
+		}
+	}
+	
+	public static void main(String[] args)
+	{
+		LinkedList l= new LinkedList();
+		l.head=new Node(10);
+		l.head.next=new Node(20);
+		l.head.next.next= new Node(30);
+		l.printy(head);
+		System.out.println("ASD ASD");
+		head=l.reverse(head);
+		l.printy(head);
+	}
+
+}

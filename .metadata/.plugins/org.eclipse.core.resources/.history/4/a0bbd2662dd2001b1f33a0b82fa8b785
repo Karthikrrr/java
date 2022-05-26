@@ -1,0 +1,37 @@
+package Hy;
+
+public class RemoveDup {
+	 static char check(char str[])
+	{
+		int n= str.length;
+		int index=0;
+		for(int i=0;i<n;i++)
+		{
+			for(int j=0;j<n;j++)
+			{
+				if(str[i]==str[j])
+				{
+					break;
+				}
+			}
+			if(j==i)
+			{
+				str[index++]=str[i];
+			}
+			
+		}
+		
+		return str[]
+	}
+	
+	public static void main(String[] args)
+	{
+	String	a="zxxxcca";
+	String za=a.replace("x","");
+	System.out.print(za);
+	//StringBuilder build = new ;
+	char str[]= a.toCharArray();
+	System.out.print(check(str));
+	System.out.print(str);
+	}
+}

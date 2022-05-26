@@ -1,0 +1,34 @@
+package Treees;
+import java.util.*;
+
+class Node
+{
+int data;
+Node left,right;
+Node(int data)
+{
+this.data=data;
+left=right=null;
+}
+}
+
+
+public class Level {
+	Node root;
+	public void printy()
+	{
+		
+	}
+
+	public static void main(String[] args) 
+	{
+		Level Tree=new Level();
+		Tree.root=new Node(1);
+		Tree.root.left=new Node(14);
+		Tree.root.left.right= new Node(1230);
+		Tree.root.right=new Node(210);
+		Tree.printy();
+
+	}
+
+}

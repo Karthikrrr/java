@@ -1,0 +1,17 @@
+package unit2;	
+
+class myownEx extends Exception
+{
+	public myownEx()
+	{
+		System.out.print("nodko guru");
+	}
+}
+
+public class ownEx {
+	public static void main(String[] args)
+	{
+		ownEx  g=new ownEx();
+	}
+
+}

@@ -1,0 +1,14 @@
+package FirstUnit;
+
+public class Sta {
+
+	Sta()
+	{
+		System.out.print("sads");
+		
+	}
+	public static void main(String[] args)
+	{
+		System.out.print("ASd");
+	}
+}

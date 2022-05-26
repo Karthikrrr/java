@@ -1,0 +1,24 @@
+package unit2;
+
+public class Catching 
+{
+public static void main(String[] args)
+{
+//try {
+//	int x=0;
+//	System.out.print("ASD");
+//	int y=0;
+//	System.out.print("asda");
+//}
+//catch (Exception e){
+//	e.printStackTrace();
+//	}
+	try {
+	      in[] myNumbers = {1, 2, 3};
+	      System.out.println(myNumbers[10]);
+	    } catch (Exception e) {
+	      System.out.println("Something went wrong.");
+	    }
+}	
+	
+}

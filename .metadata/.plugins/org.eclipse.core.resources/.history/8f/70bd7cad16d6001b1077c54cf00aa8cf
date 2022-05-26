@@ -1,0 +1,23 @@
+package ADT;
+
+public class tre {
+
+static class Node{
+	int data;
+	int left;
+	int right;
+	Node()
+	{
+		this.data;
+		this.left;
+		yhis
+	}
+}
+	
+		
+public static void main(String[] args)
+{	
+
+}
+	
+}

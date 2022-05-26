@@ -1,0 +1,32 @@
+package ADT;
+
+public class LinkedList {
+	Node head;
+	
+	class Node
+	{
+		int data;
+		Node next;
+		Node(int data)
+		{
+			this.data=data;
+			next=null;
+		}
+	}
+	
+	LinkedList()
+	{
+		head=null;
+	}
+	
+	
+	
+	public static void main(String[] args)
+	{
+		LinkedList l= new LinkedList();
+		l.head=new Node(10);
+		l.head.next=new Node(20);
+		l.head.next.next= new Node(30);
+	}
+
+}

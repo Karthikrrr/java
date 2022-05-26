@@ -1,0 +1,26 @@
+package Hy;
+
+class hi{
+	public void ji()
+	{
+		System.out.print("hii");
+	}
+}
+class hello extends hi{
+	@Overide
+	public void ji()
+	{
+		System.out.print("hii");
+	}
+}
+
+public class Over {
+	public static void main(String[] args)
+	{
+	hello h=new hello();
+	h.ji();
+	hi j=new hi();
+	j.ji();
+	}
+
+}

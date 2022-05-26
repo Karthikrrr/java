@@ -1,0 +1,16 @@
+package jo;
+
+public class SumOfArrayOn {
+public static String check(int arr[],int sum)
+{
+	
+
+}
+	
+	public static void main(String[] args)
+{
+int[] arr= new int[] {123,14,34,14,434,4,154,512,53324,134,14,134};
+int sum =28;
+check(arr,sum);
+}
+}
